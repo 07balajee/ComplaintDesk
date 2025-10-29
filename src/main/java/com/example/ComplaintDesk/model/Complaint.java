@@ -1,4 +1,4 @@
-package com.example.ComplaintDesk.entity;
+package com.example.ComplaintDesk.model;
 
 import java.time.LocalDate;
 
@@ -7,7 +7,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
 import jakarta.persistence.JoinColumn;
 import lombok.Data;
 
